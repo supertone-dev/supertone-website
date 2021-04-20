@@ -6,6 +6,7 @@ export default function EarlyAccess() {
   const typeformContainer = useRef();
 
   useEffect(() => {
+    console.log("creating widget");
     createWidget("J9yCtDyT", { container: typeformContainer.current });
   }, []);
 

@@ -26,7 +26,7 @@ export default function Home() {
           </p>
 
           <p className="text-lg md:text-xl text-gray-700 my-4">
-            Supertone is tool for digital musicians. Quickly tag, search, and
+            Supertone is a tool for digital musicians. Quickly tag, search, and
             access all your samples through a single interface.
           </p>
         </div>
