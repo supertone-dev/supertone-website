@@ -21,21 +21,22 @@ export default function Home() {
       </header>
       <main className=" flex-1 flex flex-col justify-center items-center mt-4">
         <div className="w-1/2 text-center">
-          <p className="text-5xl font-extrabold text-gray-900 my-4">
+          <p className="font-semibold text-gray-400">Limited Early Preview</p>
+          <p className="text-6xl font-extrabold text-gray-900 my-8 mb-12">
             Easily organize and access all your samples.
           </p>
 
-          <p className="text-lg md:text-xl text-gray-700 my-4">
+          <p className="text-lg text-gray-500 my-8">
             Supertone is a tool for digital musicians. Quickly tag, search, and
-            access all your samples through a single interface.
+            access your samples through a single interface.
           </p>
         </div>
         <button
           onClick={() => router.push("/early-access")}
           type="button"
-          className="inline-flex items-center my-2 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gray-800 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+          className="inline-flex items-center mt-2 mb-8 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gray-800 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
         >
-          Get early access
+          Request access
         </button>
 
         <div className="flex flex-col md:flex-row mt-2">
