@@ -20,7 +20,7 @@ export default function Home() {
           </button> */}
       </header>
       <main className=" flex-1 flex flex-col justify-center items-center mt-4">
-        <div className="w-1/2 text-center">
+        <div className="w-2/3 md:w-1/2 text-center">
           <p className="font-semibold text-gray-400">Limited Early Preview</p>
           <p className="text-6xl font-extrabold text-gray-900 my-8 mb-12">
             Easily organize and access all your samples.
